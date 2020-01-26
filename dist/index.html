@@ -8,13 +8,38 @@
     <link href="/dist/main.bundle.css" rel="stylesheet">
   </head>
   <body>
-    <h2 class="center-align">Information Visualization - Project 1</h2>
+    <h4 class="center-align">Information Visualization - Project 1</h4>
     
-    <button id="btn-clear" type="button">Clear</button>
+    <div class="buttons">
+      <button id="btn-clear" type="button" class="btnC">Clear Parallel Coordinates filter</button>
+      <button id="btn-refresh" type="button" class="btnC">Clear Groups</button>
+    </div>
     
     <div id="draft" class="parcoords"></div>
 
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="addInfo"></div>
+        <h5>Add student to group:</h5>
+      </div>
+    </div>
+
     <div id="page-wrap"></div>
+    <div class="group-wrap">
+      <div id="Group1" class="groupItem"></div>
+      <div id="Group2" class="groupItem"></div>
+      <div id="Group3" class="groupItem"></div>  
+      <div id="Group4" class="groupItem"></div>
+      <div id="Group5" class="groupItem"></div>
+      <div id="Group6" class="groupItem"></div>
+      <div id="Group7" class="groupItem"></div>
+      <div id="Group8" class="groupItem"></div>
+      <div id="Group9" class="groupItem"></div>
+      <div id="Group10" class="groupItem"></div>
+      <div id="Group11" class="groupItem"></div>
+      <div id="Group12" class="groupItem"></div>
+    </div>
 
     <script src="/dist/app.bundle.js"></script>
   </body>

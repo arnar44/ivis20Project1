@@ -1,4 +1,10 @@
 .parcoords {
-    width: 1250px;
-    height: 350px;
+    min-width: 1000px;
+    max-width: 85%;
+
+    min-height: 300px;
+    
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
