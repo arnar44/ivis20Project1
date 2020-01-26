@@ -176,6 +176,9 @@ function makeTableRows(data) {
         // Full major
         container.insert('span', ':first-child').text(stateData[index]['Major Full']);
         container.insert('p', ':first-child').attr('class','modalText').text('Full Major Information:');
+        // Alias
+        container.insert('span', ':first-child').text(stateData[index]['Alias']);
+        container.insert('p', ':first-child').attr('class','modalText').text('Alias:');
         // Heading
         container.insert('h5', ':first-child').text('Additional Information:');
 
