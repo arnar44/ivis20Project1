@@ -1,5 +1,6 @@
 import * as d3 from 'd3';
 import ParCoords from 'parcoord-es';
+import regeneratorRuntime from "regenerator-runtime";
 
 const titles = [  'Alias','Major', 'Information Visualization', 'Statistics', 'Mathematics', 
                   'Drawing and artistic', 'Computer usage', 

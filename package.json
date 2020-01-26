@@ -4,8 +4,9 @@
   "description": "Basic D3.js project for learning purposes",
   "main": "src/app.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "./node_modules/.bin/webpack-dev-server --hot --inline --progress",
-    "heroku-prebuild": "npm install --dev",
+    "heroku-prebuild": "webpack -p --config webpack.prod.config.js --hide-modules",
     "build": "webpack -p --config webpack.prod.config.js --hide-modules"
   },
   "repository": {
@@ -38,6 +39,8 @@
   },
   "dependencies": {
     "d3": "^5",
-    "parcoord-es": "^2.2.10"
+    "express": "^4.17.1",
+    "parcoord-es": "^2.2.10",
+    "regenerator-runtime": "^0.13.3"
   }
 }
