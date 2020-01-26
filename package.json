@@ -4,7 +4,7 @@
   "description": "Basic D3.js project for learning purposes",
   "main": "src/app.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --hot --inline --progress",
+    "dev": "./node_modules/.bin/webpack-dev-server --hot --inline --progress",
     "heroku-prebuild": "npm install --dev",
     "build": "webpack -p --config webpack.prod.config.js --hide-modules"
   },
