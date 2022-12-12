@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "d3": "^5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "parcoord-es": "^2.2.10",
     "regenerator-runtime": "^0.13.3"
   }
